@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+# First Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Created my First Smart Contract Using HardHat and deployed it to Goerli TestNet
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+yarn init
+yarn add --dev hardhat
+yarn hardhat compile
+yarn hardhat run scripts/deploy.js 
+yarn hardhat run scripts/deploy.js --network goerli
 ```
